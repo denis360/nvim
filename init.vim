@@ -9,7 +9,7 @@ so $HOME/.config/nvim/libs/settings.vim
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 " let g:airline#extensions#tabline#formatter = 'unique_tail'
 
-colorscheme material
+colorscheme dracula
 
 " Emmet
 let g:user_emmet_settings = {

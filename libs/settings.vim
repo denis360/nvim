@@ -1,8 +1,9 @@
 set number relativenumber
-set laststatus=0
+" set laststatus=0
 set smartindent
 set autoindent
 set expandtab
+set colorcolumn=120
 set smarttab
 set tabstop=2
 set shiftwidth=2
