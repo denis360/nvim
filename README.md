@@ -21,7 +21,7 @@ git clone https://github.com/denis360/nvim.git ~/.config/nvim
 
 Luego ingresar con neovim al archivo init.vim
 ```bash
-nvim ~/.config/nvim
+nvim ~/.config/nvim/init.vim
 ```
 
 * Instalar los plugins
