@@ -2,18 +2,18 @@ so $HOME/.config/nvim/vim-plug/plugins.vim
 
 so $HOME/.config/nvim/libs/settings.vim
 
-" let g:airline_powerline_fonts = 1
-" let g:airline_theme = "dracula"
+let g:airline_powerline_fonts = 1
+let g:airline_theme = "dracula"
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#left_sep = ' '
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 " let g:airline#extensions#tabline#formatter = 'unique_tail'
 
-colorscheme dracula
+colorscheme monokai
 
 " Emmet
 let g:user_emmet_settings = {
-\  'variables': {'lang': 'ja'},
+\  'variables': {'lang': 'en'},
 \  'html': {
 \    'default_attributes': {
 \      'option': {'value': v:null},

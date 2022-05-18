@@ -21,6 +21,5 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " open the tree of files and directories
 map <Leader>o :NERDTreeToggle<CR>
-" toggle the airline
 nnoremap <leader>a :AirlineToggle<CR>
 

@@ -1,9 +1,8 @@
 set number relativenumber
-" set laststatus=0
+set laststatus=1
 set smartindent
 set autoindent
 set expandtab
-set colorcolumn=120
 set smarttab
 set tabstop=2
 set shiftwidth=2
@@ -14,7 +13,6 @@ set encoding=utf-8
 set fileencoding=utf-8
 set ruler
 set mouse=a
-set cursorline
 set splitbelow
 set splitright
 set clipboard=unnamedplus
