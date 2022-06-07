@@ -1,6 +1,7 @@
 set number relativenumber
-set laststatus=1
+set laststatus=0
 set smartindent
+set colorcolumn=72
 set autoindent
 set expandtab
 set smarttab
@@ -17,6 +18,7 @@ set splitbelow
 set splitright
 set clipboard=unnamedplus
 set background=dark
+set cursorline
 set autochdir
 syntax enable
 filetype on

@@ -7,8 +7,8 @@ call plug#begin("~/.config/nvim/plugged")
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
         Plug 'christoomey/vim-tmux-navigator'
         " Plug 'Yggdroot/indentLine'
-        Plug 'vim-airline/vim-airline'
-        Plug 'vim-airline/vim-airline-themes'
+        " Plug 'vim-airline/vim-airline'
+        " Plug 'vim-airline/vim-airline-themes'
         Plug 'alvan/vim-closetag'
         Plug 'airblade/vim-rooter'
         Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
