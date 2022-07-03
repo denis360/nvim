@@ -1,13 +1,16 @@
 " space as leader
 let mapleader = " "
 
-" open a terminal
-nnoremap <leader>t :split<CR>:ter<CR>:resize 12<CR>
-
 " keymaps as method save, quit and delete the current window
 nnoremap <leader>w :w!<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>d :bdelete<CR>
+
+" Fzf
+map <Leader>f :Files<CR>
+
+" Prettier
+nnoremap <Leader>p :Prettier<CR>
 
 " change the size the windows
 nnoremap <leader>j :resize -2<CR>

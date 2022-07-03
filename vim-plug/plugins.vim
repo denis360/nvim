@@ -1,14 +1,18 @@
 call plug#begin("~/.config/nvim/plugged")
         Plug 'sheerun/vim-polyglot'
+        Plug 'gosukiwi/vim-atom-dark'
         Plug 'jiangmiao/auto-pairs'
         Plug 'mattn/emmet-vim'
         Plug 'scrooloose/NERDTree'    
+        Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+        Plug 'junegunn/fzf.vim'
+        Plug 'airblade/vim-rooter'
         Plug 'ryanoasis/vim-devicons'
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
         Plug 'christoomey/vim-tmux-navigator'
-        " Plug 'Yggdroot/indentLine'
-        " Plug 'vim-airline/vim-airline'
-        " Plug 'vim-airline/vim-airline-themes'
+        Plug 'Yggdroot/indentLine'
+        Plug 'vim-airline/vim-airline'
+        Plug 'vim-airline/vim-airline-themes'
         Plug 'alvan/vim-closetag'
         Plug 'airblade/vim-rooter'
         Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
